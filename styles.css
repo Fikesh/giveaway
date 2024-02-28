@@ -1,0 +1,84 @@
+@media screen and (min-width: 600px) {
+    
+}
+
+body{
+    margin: 0px;
+    height: 100vh;
+    background-color: rgb(165, 92, 163);
+    text-align: center;
+}
+
+img{
+    position:relative;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    width: 60vw;
+    border-radius: 10px;
+}
+
+.countdown{
+    gap: 50px;
+    margin: 0px;
+    height: 80vh;
+    margin-left: 50px;
+    margin-right: 150px;
+}
+
+.content{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+}
+.content h1{
+    color:black;
+    font-family: cursive;
+    
+}
+.content h4{
+    margin: 0%;
+    color:black;
+}
+
+.content p{
+    font-size: larger;
+    padding-right: 30px;
+    color:black;
+}
+
+.count{
+    display: flex;
+    flex-direction: row;
+    gap: 40px ;
+}
+
+.time{
+    background-color: black;
+    width: 120px;
+    height: 100px;
+    border-radius: 100px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.time p{
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+    color: rgb(227, 162, 227);
+    margin: 0px;
+    align-content: center;
+    justify-content: center;
+}
+
+.time h1{
+    margin: 0px;
+    color: rgb(227, 162, 227);
+    text-align: center;
+}
+
